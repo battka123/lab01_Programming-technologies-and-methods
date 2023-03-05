@@ -42,7 +42,7 @@
  
  Ответ: **15208**
  
- > Найду кол-во остальных файлов `find -type f -not -name "*.hpp" -not -name "*.h" -not -name "*.cpp" |wc -l'
+ > Найду кол-во остальных файлов `find -type f -not -name "*.hpp" -not -name "*.h" -not -name "*.cpp" |wc -l`
  
 Ответ: **32209**
 
@@ -94,7 +94,7 @@
 ```
 
 ### #Task_11
-> Вывел топ 10 самых тяжёлых файлов 'find -type f | xargs ls -lh | sort -hrk 5,5 | head' 
+> Вывел топ 10 самых тяжёлых файлов 'find -type f | xargs ls -lh | sort -hrk 5,5 | head`
     
 ```
 xargas объединил ls и sort.
