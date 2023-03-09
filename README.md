@@ -94,7 +94,7 @@
 ```
 
 ### #Task_11
-> Вывел топ 10 самых тяжёлых файлов 'find -type f | xargs ls -lh | sort -hrk 5,5 | head`
+> Вывел топ 10 самых тяжёлых файлов `find -type f | xargs ls -lh | sort -hrk 5,5 | head`
     
 ```
 xargas объединил ls и sort.
